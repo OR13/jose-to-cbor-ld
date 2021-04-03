@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "jose": "https://w3id.org/jose#",
+
+    "kty": "jose:kty",
+    "crv": "jose:crv",
+    "x": { "@id": "jose:x", "@type": "https://w3id.org/security#multibase" },
+    "y": { "@id": "jose:y", "@type": "https://w3id.org/security#multibase" }
+  }
+}
